@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] {
+  @apply w-full border py-2 my-2 px-3 rounded-2xl;
+}
+
+button.prim {
+  @apply bg-primary w-full text-white rounded-2xl p-2;
+}
+
+textarea{
+
+  @apply w-full border my-1 py-2 px-3 rounded-2xl;
+
+}
+
+.link{
+
+  transition: transform 0.5s all;
+}
+
+.link:hover{
+
+  transform: translateY(-3px);
+}
+
+
